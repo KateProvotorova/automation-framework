@@ -8,7 +8,6 @@ This is a UI & API automation testing framework for ControlUp Home Assignment.
 - TestNG
 - Rest-Assured
 - Selenium WebDriver
-- Allure (optional)
 
 ## 🧪 How to Run Tests
 
