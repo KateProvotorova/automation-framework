@@ -1,5 +1,25 @@
-# Ignore Gradle project-specific cache directory
-.gradle
+# Java & IntelliJ
+*.class
+*.log
+*.iml
+*.ipr
+*.iws
+.idea/
+target/
+out/
+.gradle/
+build/
 
-# Ignore Gradle build output directory
-build
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Reports
+allure-results/
+allure-report/
+
+# Test output
+test-output/
