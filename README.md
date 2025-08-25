@@ -1,16 +1,63 @@
-# AutomationFramework
+# Automation Testing Framework
 
-This is a UI & API automation testing framework for ControlUp Home Assignment.
+This project is an automation testing framework for UI and API testing, built using Java, TestNG, Selenium, Rest-Assured, and Gradle.
 
-## 🔧 Tech Stack
+## 🔧 Technologies Used
 
 - Java 21
-- TestNG
-- Rest-Assured
-- Selenium WebDriver
+- Selenium 4
+- Rest-Assured 5
+- TestNG 7
+- Gradle
+- GitHub
 
-## 🧪 How to Run Tests
+## 🚀 Getting Started
 
-### Run all tests:
+### Prerequisites
+
+- Java 21
+- Gradle
+- Chrome browser
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/KateProvotorova/automation-framework.git
+cd automation-framework
+```
+
+### Run Tests
+
+**Run All Tests:**
 ```bash
 ./gradlew test
+```
+
+**Run UI Tests Only:**
+```bash
+./gradlew uiTests
+```
+
+**Run API Tests Only:**
+```bash
+./gradlew apiTests
+```
+
+## ✅ Test Groups
+
+TestNG groups are used to organize tests:
+- `@Test(groups = "ui")`
+- `@Test(groups = "api")`
+
+## 🧪 Credentials
+
+You can change the login credentials in:
+```
+src/test/resources/config.properties
+src/test/resources/api_config.properties
+```
+
+## 📄 Future Improvements
+
+- Allure integration
+- GitHub Actions CI
